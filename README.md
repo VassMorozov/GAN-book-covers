@@ -12,4 +12,9 @@ The project is divided into the following high level tasks:
 * Development of bespoke GAN
 * Exploration of GAN with pre-trained discriminator
 
+Training a GAN proved tricky (and exceptionally computationaly expensive!), however the generator using a pre-trained discriminator yielded results that resembled some sort of character / animal.
+![image](https://github.com/VassMorozov/GAN_book_covers/assets/28609388/3ebdb30d-1d21-489e-8bff-29d7455b10a2)
+
+This was an output after 350 epochs of training, so with additional fine-tuning of the architecture and training hyperparameters, the results can be improved further.
+
 
