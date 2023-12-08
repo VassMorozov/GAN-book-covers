@@ -16,7 +16,7 @@ Visualising the image revealed that the majority of them have large text on the 
 
 ![image](https://github.com/VassMorozov/GAN_book_covers/assets/28609388/aacc0fa4-b0e5-4a00-8311-fb1f466c6955)
 
-Training a bespoke GAN proved tricky (and exceptionally computationaly expensive even with Google Colab GPUs!). I explored several architectures with improving results each time as I built both the generator and discriminator up, however did not find the training balance required for a GAN with the computational resources I had available. 
+Training a bespoke GAN proved tricky (and exceptionally computationally expensive even with Google Colab GPUs!). I explored several architectures with improving results each time as I built both the generator and discriminator up, however did not find the training balance required for a GAN with the computational resources I had available. 
 
 As a last effort to try and get some meaningful results, I tried to use my existing best generator combined with a pre-trained image classification model (VG16 from Keras: https://arxiv.org/abs/1409.1556). I was not sure this would work given the balance that needs to be struck between generator and discriminator in training, and using a base discriminator that was incredibly strong may not work. However the generator using a pre-trained discriminator yielded results that resembled some sort of character / animal that could arguably be a book cover!
 
